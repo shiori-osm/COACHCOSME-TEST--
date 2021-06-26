@@ -1,0 +1,150 @@
+body{
+  font-family: "shippori Mincho",sans-serif;
+  max-width:1300px;
+}
+a{
+  text-decoration: none;
+  color: #55bbbb;
+}
+#coachtechcosme-page{
+  width: 1000px;
+  margin: 0 auto;
+}
+.pop{
+  font-family:Amatic SC,sans-serif;
+}
+.highlight{
+  color:#55bbbb;
+  font-weight: normal;
+}
+.highlighter{
+  color:#ff4384;
+}
+
+.cosmepage__header{
+  height:70px;
+  font-size:40px;
+  text-align:right;
+}
+
+.cosme__main{
+  /* background-image: url(../img/fv.png);
+  background-size: cover;
+  background-position: center; */
+  background: center/cover #fff url(../img/fv.png);
+}
+
+.main__desc .highlight{
+  font-size: 3em;
+}
+
+.campaign-catch{
+  display :flex;
+  margin: 20px;
+}
+
+.campaign-special{
+  line-height: 1.8em;
+}
+
+.campaign-now{
+  color:#fff;
+  background-color:#ff4384;
+  border-radius:50%;
+  text-align:center;
+  width:80px;
+  height:80px;
+  line-height:80px;
+  margin: 0 20px;
+}
+
+.campaign-btn{
+  display: inline-block;
+  color:#fff;
+  background-color:#ff4384;
+  border-radius:15px;
+  box-shadow: 0 0 8px #ff4384;
+  text-align:center;
+  width:350px;
+  height:50px;
+  line-height:50px;
+  margin: 0 30px 30px 30px;
+}
+
+img.campaign-image{
+  max-width: 1000px;
+}
+
+.tronble__catchcopy{
+  background-color: #55bbbb;
+  border:1px solid transparent;
+  text-align: center;
+  line-height: 40px;
+  position: relative;
+  padding: 40px;
+  color:#fff;
+}
+
+.trouble__desc::before {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  border-top: 20px solid #55bbbb;
+  top: 100%;
+  left: 50%;
+}
+
+.trouble__check{
+  margin-top: 50px ;
+  display: flex;
+  justify-content: center;
+}
+
+.trouble__list{
+  margin-left: 30px;
+  border: 1px solid #55bbbb;
+  border-radius: 15px;
+  list-style-position:inside ;
+  list-style-image:url(../img/check.svg) ;
+  text-align: center;
+  width: 400px;
+  height: 250px;
+  line-height: 40px;
+}
+
+.trouble__lists{
+  border-bottom:1px solid #55bbbb;
+  margin: 30px;
+}
+
+.solution__box{
+  color: #fff;
+  background-color: #55bbbb;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  line-height: 5rem;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.cosme-point{
+  display: flex;
+}
+
+.point-box:not(:last-child){
+  margin-right: 10px;
+}
+
+.point-box__title{
+  font-size: 1.5em;
+}
+.point{
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.cosmepage__footer{
+  text-align:center;
+  margin: 30px;
+}
